@@ -17,6 +17,7 @@
 | `ingredientsTwoList`       | Array[String] | 第二个材料的可用物品列表                     |
 
 使用示例
+```json
 {
   "isShowCraft": 1,
   "isAutoShowIngredients": 0,
