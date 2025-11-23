@@ -1,21 +1,11 @@
-用于合成的分类配置
+分类配置
 
 | 字段            | 类型      | 描述                                                                 |
 | --------------- | --------- | -------------------------------------------------------------------- |
-| `categoryID`    | `string`  | 分类的唯一标识符，需要在合成配置中引用！                              |
-| `categoryTitle` | `string`  | 分类名称的本地化键。通常形式为 `#STR_...`，也可以直接写中文名称         |
-| `categoryIcon`  | `string`  | 分类图标的路径。支持 `.edds` 格式。                                   |
+| `showCategory`  | `int`     | 是否显示该分类（1 — 显示，0 — 隐藏）。                                |
+| `categoryID`    | `string`  | 分类的唯一标识符，用于代码中，请勿修改！                              |
+| `categoryTitle` | `string`  | 分类名称的本地化键。通常格式为 `#STR_...`，也可以直接写翻译后的名称     |
+| `categoryIcon`  | `string`  | 分类图标路径。支持 `.edds` 格式。                                     |
 
-```json
- "listOfCraftCategories": [
-        {
-            "categoryID": "Cannabis",
-            "categoryTitle": "大麻",
-            "categoryIcon": "relife_Core/images/icons/abstract-002.edds"
-        },
-        {
-            "categoryID": "Other",
-            "categoryTitle": "其他",
-            "categoryIcon": "relife_Core/images/icons/abstract-001.edds"
-        }
-    ],
+将分类添加到配置中只会让它显示出来，但点击时不会执行任何操作。  
+你只能修改分类的名称、显示状态与图标。
