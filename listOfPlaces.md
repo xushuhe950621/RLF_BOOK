@@ -82,21 +82,21 @@ placeImg：地点的图片数组，可包含多张图片
 添加新地点
 若要添加新地点：
 
-在 listOfPlaces 中加入新的对象
+1.在 listOfPlaces 中加入新的对象
 
-设置唯一的 idPagePlace（递增或任意唯一值）
+2.设置唯一的 idPagePlace（递增或任意唯一值）
 
-设置 needPaperToShow 以控制解锁方式
+3.设置 needPaperToShow 以控制解锁方式
 
-在 placeTitle 中填写地点名称
+4.在 placeTitle 中填写地点名称
 
-在 placeDesc 中撰写地点的详细说明
+5.在 placeDesc 中撰写地点的详细说明
 
-设置合适的搜索半径 radiusSearch
+6.设置合适的搜索半径 radiusSearch
 
-在 mapImg 填写地图图片路径
+7.在 mapImg 填写地图图片路径
 
-在 placeImg 中添加地点图片路径数组
+8.在 placeImg 中添加地点图片路径数组
 
 地点系统特点
 进度系统
